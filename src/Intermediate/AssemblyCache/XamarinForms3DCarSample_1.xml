@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XamarinForms3DCarSample_1</name>
+    </assembly>
+    <members>
+        <member name="M:XamarinForms3DCarSample.App.OnActivated">
+            <summary>
+            Called when [activated].
+            </summary>
+        </member>
+        <member name="M:XamarinForms3DCarSample.App.OnDeactivate">
+            <summary>
+            Called when [deactivate].
+            </summary>
+        </member>
+        <member name="T:XamarinForms3DCarSample.RotateToShortest3DGameAction">
+            <summary>
+            Game action that rotates an entity 3D.
+            </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.RotateToShortest3DGameAction.transform">
+            <summary>
+            The transform 3D
+            </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.RotateToShortest3DGameAction.local">
+            <summary>
+            If the animation is in local coordinates.
+            </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.RotateToShortest3DGameAction.shorterPath">
+            <summary>
+            If the animation rotates on the shorter path
+            </summary>
+        </member>
+        <member name="M:XamarinForms3DCarSample.RotateToShortest3DGameAction.#ctor(WaveEngine.Framework.Entity,WaveEngine.Common.Math.Vector3,System.TimeSpan,WaveEngine.Components.GameActions.EaseFunction,System.Boolean,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:WaveEngine.Components.GameActions.RotateTo3DGameAction"/> class.
+            </summary>
+            <param name="entity">The target entity</param>
+            <param name="to">The target rotation</param>
+            <param name="time">Animation duration</param>
+            <param name="ease">The ease function</param>
+            <param name="local">If the rotation is in local coordinates</param>
+            <param name="shorterPath">If the rotation goes on the shorter path</param>
+        </member>
+        <member name="M:XamarinForms3DCarSample.RotateToShortest3DGameAction.PerformRun">
+            <summary>
+            Performs the run operation
+            </summary>
+        </member>
+        <member name="M:XamarinForms3DCarSample.RotateToShortest3DGameAction.RotateAction(WaveEngine.Common.Math.Vector3)">
+            <summary>
+            Rotate action
+            </summary>
+            <param name="delta">The delta rotation</param>
+        </member>
+        <member name="M:XamarinForms3DCarSample.RotateToShortest3DGameAction.LocalRotateAction(WaveEngine.Common.Math.Vector3)">
+            <summary>
+            Local Rotate action
+            </summary>
+            <param name="delta">The delta rotation</param>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.GameInfo">
+            <summary> Path to Content/XamarinForms3DCarSample.wgame </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.datsun240k_fbx">
+            <summary> Path to Content/Assets/Models/datsun240k.fbx </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.Skybox_cubemap">
+            <summary> Path to Content/Assets/Models/Materials/Skybox.cubemap </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.alloy">
+            <summary> Path to Content/Assets/Models/Materials/alloy.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.black_matte">
+            <summary> Path to Content/Assets/Models/Materials/black_matte.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.black_paint">
+            <summary> Path to Content/Assets/Models/Materials/black_paint.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.chrome">
+            <summary> Path to Content/Assets/Models/Materials/chrome.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.coat">
+            <summary> Path to Content/Assets/Models/Materials/coat.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.DefaultMaterial">
+            <summary> Path to Content/Assets/Models/Materials/DefaultMaterial.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.glass">
+            <summary> Path to Content/Assets/Models/Materials/glass.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.headlights">
+            <summary> Path to Content/Assets/Models/Materials/headlights.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.license">
+            <summary> Path to Content/Assets/Models/Materials/license.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.orange_glass">
+            <summary> Path to Content/Assets/Models/Materials/orange_glass.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.paint">
+            <summary> Path to Content/Assets/Models/Materials/paint.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.red_glass">
+            <summary> Path to Content/Assets/Models/Materials/red_glass.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.stickers">
+            <summary> Path to Content/Assets/Models/Materials/stickers.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.tire">
+            <summary> Path to Content/Assets/Models/Materials/tire.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.black_png">
+            <summary> Path to Content/Assets/Textures/black.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.c4d13e1ef5c20e49d7206aefff123f19_no_signa_jpg">
+            <summary> Path to Content/Assets/Textures/c4d13e1ef5c20e49d7206aefff123f19--no-signa.jpg </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.headlight_normal_jpg">
+            <summary> Path to Content/Assets/Textures/headlight_normal.jpg </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.plate_png">
+            <summary> Path to Content/Assets/Textures/plate.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.shadow_png">
+            <summary> Path to Content/Assets/Textures/shadow.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.stickers_png">
+            <summary> Path to Content/Assets/Textures/stickers.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.tire_png">
+            <summary> Path to Content/Assets/Textures/tire.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.tire3_png">
+            <summary> Path to Content/Assets/Textures/tire3.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.floorMaterial">
+            <summary> Path to Content/Assets/Materials/floorMaterial.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.RenderLayers.Opaque">
+            <summary>Id of Opaque</summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.RenderLayers.Skybox">
+            <summary>Id of Skybox</summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.RenderLayers.Alpha">
+            <summary>Id of Alpha</summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.RenderLayers.Additive">
+            <summary>Id of Additive</summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.RenderLayers.GUI">
+            <summary>Id of GUI</summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.RenderLayers.Debug">
+            <summary>Id of Debug</summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Scenes.Loading">
+            <summary> Path to Content/Scenes/Loading.wscene </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Scenes.MyScene">
+            <summary> Path to Content/Scenes/MyScene.wscene </summary>
+        </member>
+    </members>
+</doc>
