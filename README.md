@@ -7,6 +7,14 @@ Xamarin.Forms  application that makes use Wave Engine, cross platform game engin
 ## Screens
 
 <img src="images/car-3d-sample-01.gif" Width="420" /> <img src="images/car-3d-sample-02.gif" Width="420" />
+
+## Requirements
+
+* [Visual Studio __2015__](https://www.visualstudio.com/en-us/products/vs-2015-product-editions.aspx) Update 3 (14.0 or higher) to compile C# 6 language features (or Visual Studio MacOS)
+* Xamarin add-ons for Visual Studio 3.2.1.64 or higher (available via the Visual Studio installer)
+* [Wave Engine Editor](https://waveengine.net/Downloads)
+* Wave Engine Nightly NuGet [feed](https://www.myget.org/F/waveengine-nightly/api/v3/index.json)
+
 ## Licenses
 
 This project uses some third-party assets with a license that requires attribution:
