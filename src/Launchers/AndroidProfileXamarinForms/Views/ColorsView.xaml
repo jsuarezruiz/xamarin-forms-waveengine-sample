@@ -46,12 +46,13 @@
                            SeparatorVisibility="None"
                            HasUnevenRows="false"
                            FlowItemsSource="{Binding Colors}"
-                           FlowItemTappedCommand="{Binding ColorTappedCommand}">
+                           FlowItemTappedCommand="{Binding ColorTappedCommand}"
+                           Margin="6">
             <flv:FlowListView.FlowColumnTemplate>
                 <DataTemplate>
-                    <StackLayout BackgroundColor="{Binding Hex}"
-                                 VerticalOptions="Fill"
-                                 Margin="0, 0, 6, 6" />
+                    <Frame BackgroundColor="{Binding Hex}"
+                           VerticalOptions="Fill"
+                           Margin="0, 0, 6, 6" />
                 </DataTemplate>
             </flv:FlowListView.FlowColumnTemplate>
         </flv:FlowListView>
