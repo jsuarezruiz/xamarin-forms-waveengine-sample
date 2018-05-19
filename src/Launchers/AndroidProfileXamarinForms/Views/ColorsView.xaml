@@ -5,14 +5,14 @@
                             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
                             xmlns:slideOverKit="clr-namespace:SlideOverKit;assembly=SlideOverKit"
                             MenuOrientations="LeftToRight"
-                            AnimationDurationMillisecond="500"
-                            WidthRequest="300"
+                            AnimationDurationMillisecond="300"
+                            WidthRequest="250"
                             BackgroundViewColor="Transparent"
                             IsFullScreen="True">
     <slideOverKit:SlideMenuView.Resources>
         <ResourceDictionary>
 
-            <Color x:Key="ColorsBackgroundColor">#B3222527</Color>
+            <Color x:Key="ColorsBackgroundColor">#99CCCCCC</Color>
 
             <Style x:Key="CloseImageStyle"
                    TargetType="Image">
@@ -24,7 +24,8 @@
 
         </ResourceDictionary>
     </slideOverKit:SlideMenuView.Resources>
-    <Grid BackgroundColor="{StaticResource ColorsBackgroundColor}">
+    <Grid 
+        BackgroundColor="{StaticResource ColorsBackgroundColor}">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>

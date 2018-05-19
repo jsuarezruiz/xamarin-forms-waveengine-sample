@@ -11,7 +11,6 @@
             <!-- COLORS -->
             <Color x:Key="WhiteColor">#ffffff</Color>
             <Color x:Key="BlackColor">#000000</Color>
-            <Color x:Key="YellowColor">#FBC900</Color>
 
             <!-- CONVERTERS -->
             <converters:InverseBoolConverter x:Key="InverseBoolConverter" />
@@ -111,7 +110,7 @@
         <!-- LOADING -->
         <Grid BackgroundColor="{StaticResource WhiteColor}"
               IsVisible="{Binding IsInit, Converter={StaticResource InverseBoolConverter}}">
-            <ActivityIndicator Color="{StaticResource YellowColor}"
+            <ActivityIndicator Color="{StaticResource BlackColor}"
                                IsRunning="True"
                                IsVisible="{Binding IsInit, Converter={StaticResource InverseBoolConverter}}"
                                HeightRequest="100"

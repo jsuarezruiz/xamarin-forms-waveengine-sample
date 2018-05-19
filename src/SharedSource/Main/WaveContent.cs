@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// File generated on 17/05/2018 20:23:30
+// File generated on 19/05/2018 13:18:13
 namespace XamarinForms3DCarSample
 {
     using System;
